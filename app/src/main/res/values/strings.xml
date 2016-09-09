@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="profile">Мой профиль</string>
+    <string name="friends">Друзья</string>
+    <string name="map">Карта</string>
+    <string name="my_Places">Мои места</string>
+    <string name="actions">События</string>
+    <string name="whereGo">Куда пойти</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accessToken">sk.eyJ1Ijoia3IzdiIsImEiOiJjaXIyOTg2ZmEwMDFienZrcW04dmxwa2FrIn0.oZ1hJ8ApK5hbQaBkvcgiZQ</string>
+
+</resources>
