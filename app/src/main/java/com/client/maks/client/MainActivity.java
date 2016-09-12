@@ -43,22 +43,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MapboxAccountManager.start(this, getString(R.string.accessToken));
         setContentView(R.layout.activity_main);
-
+        MapboxAccountManager.start(this, getString(R.string.accessToken));
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        mMapFragment = new GMapFragment();
 
         if (savedInstanceState != null) {
             currentFragment = savedInstanceState.getString(FKEY);
             Log.d(TAG, "onCreate: currentFragment is " + currentFragment);
             setToolBarTitle(currentFragment);
         } else {
-
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.replace(R.id.frame, new GMapFragment(), "visible_fragment");
+            ft.replace(R.id.frame, mMapFragment, "visible_fragment");
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             ft.commit();
             setToolBarTitle(currentFragment);
@@ -125,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                         Fragment fragment = new Fragment();
                         switch (position) {
                             case 1:
-                                fragment = new GMapFragment();
+                                fragment = mMapFragment;
                                 currentFragment = "Map";
                                 break;
                             case 5:
