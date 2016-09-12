@@ -9,5 +9,8 @@
     <string name="whereGo">Куда пойти</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="accessToken">sk.eyJ1Ijoia3IzdiIsImEiOiJjaXIyOTg2ZmEwMDFienZrcW04dmxwa2FrIn0.oZ1hJ8ApK5hbQaBkvcgiZQ</string>
-
+    <string name="input">Добавление маркера</string>
+    <string name="input_content">Введите название и описание</string>
+    <string name="input_hint1">Название</string>
+    <string name="input_hint2">Описание</string>
 </resources>
