@@ -12,7 +12,7 @@ public class Resource {
         public static final String IMAGE = "image";
         public static final String TABLE_NAME = "friends";
 
-        public static final String CREATE_TABLE = "create table " + TABLE_NAME + " (" + ID +
+        public static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " (" + ID +
                 " INTEGER PRIMARY KEY AUTOINCREMENT, " + NAME + " TEXT(255), " + IMAGE + " INTEGER);";
 
     }
