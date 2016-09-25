@@ -39,13 +39,6 @@ public class GMapFragment extends Fragment {
     Bitmap bitmap;
     static final int GALLERY_REQUEST = 1;
     MapView mapView;
-    //public static final int RESULT_OK = 1;
-//    @Override
-//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-//                             Bundle savedInstanceState) {
-//        // Inflate the layout for this fragment
-//        return inflater.inflate(R.layout.fragment_map, container, false);
-//    }
 
     @Nullable
     @Override
