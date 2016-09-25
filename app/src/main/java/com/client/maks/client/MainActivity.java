@@ -32,8 +32,6 @@ import fragments.GMapFragment;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-    final private static String MAP = "Map";
-    final private static String FRIENDS = "Friends";
     final private static String FKEY = "Fragment";
     private static GMapFragment mMapFragment;
     private Drawer result;
