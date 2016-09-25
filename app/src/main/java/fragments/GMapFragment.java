@@ -84,8 +84,8 @@ public class GMapFragment extends Fragment {
                                     @Override
                                     public void onInput(MaterialDialog dialog, final CharSequence input1) {
                                         new MaterialDialog.Builder(getActivity())
-                                                .title(R.string.input)
-                                                .content(R.string.input_content)
+                                                .title(R.string.input21)
+                                                .content(R.string.input_content21)
                                                 .inputType(InputType.TYPE_CLASS_TEXT|InputType.TYPE_TEXT_FLAG_CAP_SENTENCES)
                                                 .input(R.string.input_hint2, 0, new MaterialDialog.InputCallback() {
 
