@@ -27,10 +27,17 @@ public class FriendsFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
-        new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
-        new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
-        new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
+        if (new FriendService(getActivity()).getAll().size() == 0) {
+            new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
+            new FriendService(getActivity()).save(new Friend("Максим", R.drawable.friend2));
+            new FriendService(getActivity()).save(new Friend("Дима", R.drawable.friend3));
+            new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
+            new FriendService(getActivity()).save(new Friend("Максим", R.drawable.friend2));
+            new FriendService(getActivity()).save(new Friend("Дима", R.drawable.friend3));
+            new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
+            new FriendService(getActivity()).save(new Friend("Максим", R.drawable.friend2));
+            new FriendService(getActivity()).save(new Friend("Дима", R.drawable.friend3));
+        }
         ListView listView = (ListView) getView().findViewById(R.id.listView);
         myAdapter = new FriendsCursorAdapter(new FriendService(getActivity()).getAll(), getActivity());
         listView.setAdapter(myAdapter);
