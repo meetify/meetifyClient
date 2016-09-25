@@ -75,12 +75,12 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .build();
         //if you want to update the items at a later time it is recommended to keep it in a variable
-        PrimaryDrawerItem map = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.map);
-        PrimaryDrawerItem myPlaces = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.my_Places);
-        PrimaryDrawerItem actions = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.actions);
-        PrimaryDrawerItem whereGo = new PrimaryDrawerItem().withIdentifier(4).withName(R.string.whereGo);
-        PrimaryDrawerItem friends = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.friends);
-        PrimaryDrawerItem profile = new PrimaryDrawerItem().withIdentifier(6).withName(R.string.profile);
+        PrimaryDrawerItem map = new PrimaryDrawerItem().withName(R.string.map).withIdentifier(1);
+        PrimaryDrawerItem myPlaces = new PrimaryDrawerItem().withName(R.string.my_Places).withIdentifier(2);
+        PrimaryDrawerItem actions = new PrimaryDrawerItem().withName(R.string.actions).withIdentifier(3);
+        PrimaryDrawerItem whereGo = new PrimaryDrawerItem().withName(R.string.whereGo).withIdentifier(4);
+        PrimaryDrawerItem friends = new PrimaryDrawerItem().withName(R.string.friends).withIdentifier(5);
+        PrimaryDrawerItem profile = new PrimaryDrawerItem().withName(R.string.profile).withIdentifier(6);
 
 
 //create the drawer and remember the `Drawer` result object
@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
                             currentFragment = "Friends";
                         }
                         setToolBarTitle(currentFragment);
+
                     }
                 }
         );
@@ -164,6 +165,16 @@ public class MainActivity extends AppCompatActivity {
             result.closeDrawer();
         } else {
             super.onBackPressed();
+        }
+        FragmentManager fragMan = getFragmentManager();
+        Fragment fragment = fragMan.findFragmentByTag("visible_fragment");
+        if (fragment instanceof GMapFragment) {
+            currentFragment = "Map";
+            result.setSelection(1);
+        }
+        if (fragment instanceof FriendsFragment) {
+            currentFragment = "Friends";
+            result.setSelection(5);
         }
     }
 
