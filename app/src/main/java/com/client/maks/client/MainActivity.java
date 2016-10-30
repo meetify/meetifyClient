@@ -11,7 +11,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-import com.mapbox.mapboxsdk.MapboxAccountManager;
+//import com.mapbox.mapboxsdk.MapboxAccountManager;
+import com.google.android.gms.maps.MapFragment;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MapboxAccountManager.start(this, getString(R.string.accessToken));
+        //MapboxAccountManager.start(this, getString(R.string.accessToken));
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -59,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
             ft.commit();
             setToolBarTitle(currentFragment);
         }
-
 
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
