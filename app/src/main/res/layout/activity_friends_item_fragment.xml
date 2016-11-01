@@ -9,25 +9,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     >
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageFriend"
-        android:src="@drawable/friend1"
-        android:layout_gravity="top" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:text="TextView"
         android:layout_gravity="top"
         android:id="@+id/friendName"
         android:textColor="@color/md_black_1000"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageFriend"
-        android:layout_alignBottom="@+id/imageFriend"
+        android:layout_alignTop="@+id/imageFriend"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageFriend"
+        android:layout_toRightOf="@+id/imageFriend"
+        android:layout_toEndOf="@+id/imageFriend" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageFriend"
+        android:layout_alignLeft="@+id/imageFriend"
+        android:layout_alignStart="@+id/imageFriend"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageFriend"
+        android:src="@drawable/friend1"
+        android:layout_gravity="top"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
