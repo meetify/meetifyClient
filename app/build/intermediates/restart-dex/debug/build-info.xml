@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="20912298190553"
+    token="-8177689048305100694" >
+
+    <task
+        name="javac"
+        duration="708" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="29" />
+    <task
+        name="verifier"
+        duration="15" />
+
+    <artifact
+        location="H:\AndroidStudioProjects\meetifyClient\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+
+    <build timestamp="20273700958944" >
+        <artifact
+            location="H:\AndroidStudioProjects\meetifyClient\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="20912298190553" >
+        <artifact
+            location="H:\AndroidStudioProjects\meetifyClient\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
