@@ -22,6 +22,7 @@ import android.widget.Toast;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.client.maks.client.MainActivity;
+import com.client.maks.client.Place;
 import com.client.maks.client.R;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.maps.CameraUpdate;
@@ -47,7 +48,10 @@ import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;*/
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+
+import placeDataBase.pservice.PlaceService;
 
 //import android.support.v4.app.Fragment;
 
@@ -111,6 +115,10 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
                                                             .position(latLng)
                                                             .icon(BitmapDescriptorFactory.fromBitmap(bitmap))
                                                             .title(input1.toString()));
+                                                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                                    bitmap.compress(Bitmap.CompressFormat.PNG, 90, baos);
+                                                    byte[] image = baos.toByteArray();
+                                                    new PlaceService(getActivity()).save(new Place(input1.toString(), image));
                                                 }
                                                 else{
                                                     Log.d("mmr","Oops");

@@ -1,26 +1,6 @@
 [
     {
-        "merged": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\md_nav_back.png",
-        "source": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable-ldpi-v4\\md_nav_back.png"
-    },
-    {
-        "merged": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\friend3.png",
-        "source": "H:\\AndroidStudioProjects\\meetifyClient\\app\\src\\main\\res\\drawable-ldpi\\friend3.png"
-    },
-    {
-        "merged": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_info_outline_24dp_selected.png",
-        "source": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-sdk\\4.2.0-beta.2\\res\\drawable-ldpi-v4\\ic_info_outline_24dp_selected.png"
-    },
-    {
-        "merged": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\friend2.png",
-        "source": "H:\\AndroidStudioProjects\\meetifyClient\\app\\src\\main\\res\\drawable-ldpi\\friend2.png"
-    },
-    {
-        "merged": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\friend1.png",
-        "source": "H:\\AndroidStudioProjects\\meetifyClient\\app\\src\\main\\res\\drawable-ldpi\\friend1.png"
-    },
-    {
-        "merged": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_info_outline_24dp.png",
-        "source": "H:\\AndroidStudioProjects\\meetifyClient\\app\\build\\intermediates\\exploded-aar\\com.mapbox.mapboxsdk\\mapbox-android-sdk\\4.2.0-beta.2\\res\\drawable-ldpi-v4\\ic_info_outline_24dp.png"
+        "merged": "C:\\Users\\Egor\\Desktop\\meetifyClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\md_nav_back.png",
+        "source": "C:\\Users\\Egor\\Desktop\\meetifyClient\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.0.1\\res\\drawable-ldpi-v4\\md_nav_back.png"
     }
 ]

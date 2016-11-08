@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="xhdpi"
-    format="7"
-    timestamp="20912298190553"
-    token="-8177689048305100694" >
+    api-level="15"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="132994885455534"
+    token="6421063761772446294"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="708" />
+        duration="1485" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="29" />
+        duration="1176" />
     <task
         name="verifier"
-        duration="15" />
+        duration="489" />
 
     <artifact
-        location="H:\AndroidStudioProjects\meetifyClient\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="C:\Users\Egor\Desktop\meetifyClient\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="20273700958944" >
+    <build
+        timestamp="132994885455534"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="H:\AndroidStudioProjects\meetifyClient\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Egor\Desktop\meetifyClient\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="20912298190553" >
-        <artifact
-            location="H:\AndroidStudioProjects\meetifyClient\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

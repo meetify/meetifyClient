@@ -1,3 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dcac7435781db56e25ab17c3f662227c517fc327">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.mikepenz-iconics-core-2.8.0_3553c1e9a1123bb79be7f2aa4a27d911f3c664a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_6f155230b1dea33795f0d142fa557ea908299caa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.github.armcha\LuseenBottomNavigation\1.8.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="01a53e6dc3ad765fc98f9bbff0f8def78ecca2c6">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.github.armcha-LuseenBottomNavigation-1.8.2_a2918410374c66a2414dec8162e482626eaee2d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.1.7_43eceb265dd8ecef2c62947d21273ad508c58ce4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_9a91cb0f3185334021f71d3b5cedc130647a04e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_36ba7de84d53492f40f2a22e5de4474ac54a755d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_a937406e3761a01660dfe9d827634b0a341c2211.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_96e162902ab7c95f9500a50caa6bfeba5f0acf49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_d69adfd72cbd0d6b5c3f1badbf0ce6bbd58a977a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_67e8e7e4e1752fc4b94ee5018d9e5b85e4511875.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="21752cbe99942598e0b554b84e79b7c8d6f172f2">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.mikepenz-fastadapter-1.8.0_3e19951e615f727d4b70663c360dbddf4847d890.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_da1ffd1a50d7fc11144d53eca2857bf4af3e4382.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_497ac2b03719c410910d2f86b9e59344d7e0d514.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_628928929b8fc4c9340860bd8cf6f877dc3b8917.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_406b4dfa9a5f49140762ff5716061baea1df6088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b766c9a5a548d5c85da0e193914efa22133c51ae">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\instant-run_5297a8332c9fbea8442678cb9067587a082a7295.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_03784bc1ef4c6091adf5d327490b5f3463bafcb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_ddfdd2ccf5b9a3bc1c5abcfe90df77ebee449e3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_682bac84a2de580bf4ba47fdb3fcdde14100985d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.mikepenz\materialize\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="84c98924eff3106f306c3e233cc2e6d84744f518">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialize-1.0.0_3d3777688801a8c23d6a175db54dfa0728729005.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="acc33023966f868dfe3ecb77a3ce5676dc8de92d">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.afollestad.material-dialogs-core-0.9.0.1_d2b808b65b380c9274c367c8242def8c2e27b0a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_98fb9658260ebbf3b9ec430eadcd7e1b66b961fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1f1ce64afd74b2822a07824b53802d935a0ebf9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.8.0_451f326bc56e4a94248bcab3fda98b4f31843a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2fb8515add7808ccee0ba0aa3b9f27133dc5b18a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="669363a78509a54486a2ce2a5afc4f7760b5e7bb">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_f8e9bc88ad07276078838d31344edf26ef9e3f69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fba538e4a999351c076639c4febdb49c0b1897f0">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.mikepenz-materialdrawer-5.6.0_d5b7512805d6baf8f2272b22dd24bc0843201c17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_ca3b187e672ae518eb53691457c916c16cb8587b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_1724a40869f7203495281eb5f74106f2e2a5c3c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Egor\Desktop\meetifyClient\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_c5b735c69db0d7d62648d6aaedb0983b4b3abdd0.jar" />
+    </item>
+
+</items>

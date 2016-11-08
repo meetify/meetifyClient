@@ -28,12 +28,8 @@ public class FriendsFragment extends Fragment {
     public void onStart() {
         super.onStart();
         if (new FriendService(getActivity()).getAll().size() == 0) {
-            new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
-            new FriendService(getActivity()).save(new Friend("Максим", R.drawable.friend2));
-            new FriendService(getActivity()).save(new Friend("Дима", R.drawable.friend3));
-            new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
-            new FriendService(getActivity()).save(new Friend("Максим", R.drawable.friend2));
-            new FriendService(getActivity()).save(new Friend("Дима", R.drawable.friend3));
+            new FriendService(getActivity()).save(new Friend("Аня", R.drawable.friend));
+
             new FriendService(getActivity()).save(new Friend("Никита", R.drawable.friend1));
             new FriendService(getActivity()).save(new Friend("Максим", R.drawable.friend2));
             new FriendService(getActivity()).save(new Friend("Дима", R.drawable.friend3));
