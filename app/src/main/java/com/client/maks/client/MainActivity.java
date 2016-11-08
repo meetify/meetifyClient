@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -26,18 +27,21 @@ import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 
 import fragments.FriendsFragment;
 import fragments.GMapFragment;
+import fragments.PlaceFragment;
 
 //import android.support.v4.app.Fragment;
 //import android.support.v4.app.FragmentTransaction;
 //import android.support.v4.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
+
     private static final String TAG = "MainActivity";
     final private static String FKEY = "Fragment";
     private static GMapFragment mMapFragment;
     private Drawer result;
     private String currentFragment = "Map";
     private String titles[];
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+ //       gender = "female";
+
+//            toolbar.setBackgroundColor(Color.rgb(255, 40, 81));
+
         mMapFragment = new GMapFragment();
 
         if (savedInstanceState != null) {
@@ -74,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .build();
+
         //if you want to update the items at a later time it is recommended to keep it in a variable
         PrimaryDrawerItem map = new PrimaryDrawerItem().withName(R.string.map).withIdentifier(1);
         PrimaryDrawerItem myPlaces = new PrimaryDrawerItem().withName(R.string.my_Places).withIdentifier(2);
@@ -124,6 +133,10 @@ public class MainActivity extends AppCompatActivity {
                                 fragment = mMapFragment;
                                 currentFragment = "Map";
                                 break;
+                            case 2:
+                                fragment = new PlaceFragment();
+                                currentFragment = "Places";
+                                break;
                             case 5:
                                 fragment = new FriendsFragment();
                                 currentFragment = "Friends";
@@ -152,6 +165,9 @@ public class MainActivity extends AppCompatActivity {
                         if (fragment instanceof FriendsFragment) {
                             currentFragment = "Friends";
                         }
+                        if(fragment instanceof PlaceFragment){
+                            currentFragment = "Places";
+                        }
                         setToolBarTitle(currentFragment);
 
                     }
@@ -176,6 +192,10 @@ public class MainActivity extends AppCompatActivity {
             currentFragment = "Friends";
             result.setSelection(5);
         }
+        if(fragment instanceof PlaceFragment){
+            currentFragment = "Places";
+            result.setSelection(2);
+        }
     }
 
 
@@ -195,6 +215,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (fragmentName.equals("Friends")) {
             title = "Friends";
+        }
+        if(fragmentName.equals("Places")){
+            title = "Places";
         }
         getSupportActionBar().setTitle(title);
     }
